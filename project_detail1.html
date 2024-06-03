@@ -85,6 +85,17 @@ header {
     padding: 20px 0;
     font-size: large;
 }
+    /* Responsive adjustments */
+@media (max-width: 768px) {
+            .column ,.column1,.column2,.column3{
+                width: 100%;
+                float: none;
+                padding: 10px 0;
+            }
+            .column img {
+                width: 100%;
+            }
+        }
 </style>
 </head>
 <body>
@@ -176,5 +187,9 @@ header {
                 </div>
             </div>
         </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
